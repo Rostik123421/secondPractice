@@ -1,10 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+
+
 
 body {
-      font-family:400 ;
-     font-family: 'Playfair Display' ;
-     
+     font-family: 'Playfair Display',serif ;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 1,35;
 }
+
+h2,p,ul {
+   padding:0;
+   margin: 0;
+}
+
+
 
 a { 
      text-decoration: none;
@@ -14,13 +25,93 @@ ul {
      list-style: none;
 }
 
-.nav-list-link {
-     color: #7d7d7d;
-     line-height: 19px;
-     font-size: 14px;
+.main-btn {
+     display: flex;
+     
 }
 
-.img {
-     width: 309.48px;
-     height: 535px;
+
+.container {
+     width: 1200px;
+     margin: 0 auto;
+}
+
+.header {
+     display: flex;
+     justify-content: center;
+}
+
+.nav-menu {
+     padding: 71px 0px 92px;
+}
+
+.nav-list {
+     width: 555px;
+     display: flex;
+     justify-content: space-between;
+}
+
+
+
+
+.nav-list-link {
+     color: #7d7d7d;
+     
+}
+
+
+
+.nav-list-link:hover ,.nav-list-link:focus {
+     color: #03A9F4;
+     
+}
+
+/* Section Main */
+
+.content {
+     padding-bottom: 66px;
+}
+
+
+
+.main-list {
+  display: flex;
+  width: 906px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.main-list-item:not(:nth-child(n+5)) {
+     margin-bottom: 130px;
+}
+
+.main-list-img {
+     margin-bottom: 32px;
+}
+
+.main-list-paragh {
+     width: 420px;
+}
+
+.main-list-text {
+     margin-bottom: 32px;
+}
+
+.main-list-header {
+     margin-bottom: 40px;
+}
+
+.btn {
+     display: flex;
+     margin: 90px auto 0 ;
+     font-family: 'Playfair Dispaly' , serif; 
+     width: 165px;
+     height: 60px;
+     justify-content: center;
+     align-items: center;
+     line-height: 1.35;
+     font-weight: 400;
+     color: #626262;
+     border: 1px solid #626262;
 }
