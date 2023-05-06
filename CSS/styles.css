@@ -1,78 +1,65 @@
-
-
-
-
-
 body {
-     font-family: 'Playfair Display',serif ;
-     font-weight: 400;
-     font-size: 14px;
-     line-height: 1,35;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.35;
+  color: #626262;
 }
 
-h2,p,ul {
-   padding:0;
-   margin: 0;
+h2,
+p,
+ul {
+  padding: 0;
+  margin: 0;
 }
 
+img,
+button {
+  display: block;
+}
 
-
-a { 
-     text-decoration: none;
+a {
+  text-decoration: none;
 }
 
 ul {
-     list-style: none;
+  list-style: none;
 }
-
-.main-btn {
-     display: flex;
-     
-}
-
 
 .container {
-     width: 1200px;
-     margin: 0 auto;
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .header {
-     display: flex;
-     justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .nav-menu {
-     padding: 71px 0px 92px;
+  padding: 71px 0px 92px;
 }
 
 .nav-list {
-     width: 555px;
-     display: flex;
-     justify-content: space-between;
+  width: 555px;
+  display: flex;
+  justify-content: space-between;
 }
-
-
-
 
 .nav-list-link {
-     color: #7d7d7d;
-     
+  color: #7d7d7d;
 }
 
-
-
-.nav-list-link:hover ,.nav-list-link:focus {
-     color: #03A9F4;
-     
+.nav-list-link:hover,
+.nav-list-link:focus {
+  color: #03a9f4;
 }
 
 /* Section Main */
 
 .content {
-     padding-bottom: 66px;
+  padding-bottom: 66px;
 }
-
-
 
 .main-list {
   display: flex;
@@ -82,36 +69,42 @@ ul {
   margin: 0 auto;
 }
 
-.main-list-item:not(:nth-child(n+5)) {
-     margin-bottom: 130px;
+.main-list-item:not(:nth-child(n + 5)) {
+  margin-bottom: 130px;
 }
 
 .main-list-img {
-     margin-bottom: 32px;
+  margin-bottom: 62px;
+  width: 420px;
+  height: 280px;
 }
 
 .main-list-paragh {
-     width: 420px;
+  width: 420px;
 }
 
 .main-list-text {
-     margin-bottom: 32px;
+  margin-bottom: 32px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  line-height: 1.14;
+  color: #b4ad9e;
 }
 
 .main-list-header {
-     margin-bottom: 40px;
+  margin-bottom: 40px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.33;
 }
 
 .btn {
-     display: flex;
-     margin: 90px auto 0 ;
-     font-family: 'Playfair Dispaly' , serif; 
-     width: 165px;
-     height: 60px;
-     justify-content: center;
-     align-items: center;
-     line-height: 1.35;
-     font-weight: 400;
-     color: #626262;
-     border: 1px solid #626262;
+  margin: 90px auto 0;
+  font-family: "Playfair Dispaly", serif;
+  width: 165px;
+  height: 60px;
+  line-height: 1.35;
+  font-weight: 400;
+  color: #626262;
+  border: 1px solid #626262;
 }
